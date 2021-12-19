@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/data/style.css" />
+    <link rel="stylesheet" href="/data/query.css" />
+    <title>Wavy</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <nav class="header">
+        <a href="#"
+          ><h2><span>Wavy</span></h2>
+        </a>
+        <div class="search">
+          <i class="fas fa-search"></i>
+          <input type="text" name="search" placeholder="Search" />
+        </div>
+        <div>
+          <i class="fas fa-sun" id="toggle"></i>
+        </div>
+      </nav>
+    </header>
+    <!-- Section -->
+    <section>
+      <div class="container">
+        <!-- Left Side -->
+        <div class="side-bars">
+          <h3>Library</h3>
+          <hr />
+          <div class="side-bar cat-link">
+            <h4><i class="fas fa-wave-square"></i>Category</h4>
+          </div>
+          <div class="side-bar play-link">
+            <h4><i class="fas fa-music"></i>Playlists</h4>
+          </div>
+          <div class="side-bar fav-link">
+            <h4><i class="fas fa-heart"></i>Favourites</h4>
+          </div>
+        </div>
+        <!-- Right Side -->
+        <div class="content">
+          <div class="image">
+            <h1 class="hero">Explore Now</h1>
+          </div>
+          <div class="cat">
+            <h2>Category</h2>
+            <div class="category">
+              <div class="first bg">Pop</div>
+              <div class="second bg">Rock</div>
+              <div class="bg">Hip-hop & Rap</div>
+              <div class="bg">Dance & Electronic</div>
+              <div class="bg">Classical</div>
+              <div class="bg">Jazz</div>
+            </div>
+          </div>
+          <div class="recommand-art">
+            <h2>Recommend Artists</h2>
+            <div class="artists">
+              <!-- Pop-Artist -->
+              <div class="artist">
+                <div>
+                  <img src="/data/img/BIEBER.jpg" alt="Justin Bieber" />
+                  <h4>Justin Bieber</h4>
+                </div>
+                <div>
+                  <img src="/data/img/Ariana Grade.jpg" alt="Ariana Grade" />
+                  <h4>Ariana Grade</h4>
+                </div>
+                <div>
+                  <img src="/data/img/Ed Sheeran.jpg" alt="Ed Sheeran" />
+                  <h4>Ed Sheeran</h4>
+                </div>
+                <div>
+                  <img src="/data/img/Taylor Swift.jpg" alt="Taylor Swift" />
+                  <h4>Taylor Swift</h4>
+                </div>
+                <div>
+                  <img
+                    src="/data/img/Olivia Rodrigo.png"
+                    alt="Olivia Rodrigo"
+                  />
+                  <h4>Olivia Rodrigo</h4>
+                </div>
+                <div>
+                  <img src="/data/img/Alan Walker.jpg" alt="Alan Walker" />
+                  <h4>Alan Walker</h4>
+                </div>
+              </div>
+            </div>
+            <hr />
+          </div>
+          <!-- Playlists -->
+          <div class="playlists">
+            <div class="plus">
+              <h2>Playlists</h2>
+              <button class="add-plist">+</button>
+            </div>
+            <div class="play"></div>
+            <hr />
+          </div>
+          <!-- Favourites -->
+          <div class="favourites">
+            <h2>Favourites</h2>
+            <div class="favourite">
+              <audio src="" class="audiotag"></audio>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="/data/app.js"></script>
+  </body>
+</html>
