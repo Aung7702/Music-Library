@@ -142,10 +142,7 @@
   body {
     overflow-x: hidden;
   }
-  .hero {
-    margin-left: 20px;
-    font-size: 30px;
-  }
+
   h2 {
     margin-left: 5px;
   }
@@ -176,6 +173,10 @@
     margin-left: 0;
     width: 330px;
     justify-content: space-between;
+  }
+  .hero {
+    margin-left: 20px;
+    font-size: 30px;
   }
   .category {
     grid-template-columns: 1fr 1fr;

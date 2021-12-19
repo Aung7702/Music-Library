@@ -208,7 +208,7 @@ toggle.addEventListener("click", () => {
     h4.style.color = "#fff";
     content.style.background = "#2e2e2e";
     container.style.background = "#2e2e2e";
-    container.style.boxShadow = "#2e2e2e 0 0 0";
+    container.style.boxShadow = "#2e2e2e 0px 0px 0px";
     sideBars.style.background = "#212121";
     catBg.style.background = "#212121";
   }
