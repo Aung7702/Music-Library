@@ -106,25 +106,31 @@ const arr = [
     id: 0,
     name: "Olivia Rodrigo",
     title: "Happier",
-    File: "/data/music/Olivia Rodrigo - Happier.mp3",
+    File: "data/music/Olivia Rodrigo - Happier.mp3",
   },
   {
     id: 1,
     name: "Alan Walker",
     title: "Alone",
-    File: "/data/music/Alan Walker - Alone.mp3",
+    File: "data/music/Alan Walker - Alone.mp3",
   },
   {
     id: 2,
     name: "Olivia Rodrigo",
     title: "deja vu",
-    File: "/data/music/Olivia Rodrigo - deja vu.mp3",
+    File: "data/music/Olivia Rodrigo - deja vu.mp3",
   },
   {
     id: 3,
     name: "Ed Sheeran",
     title: "I Don't Care",
-    File: "/data/music/Ed Sheeran - I Don't Care.mp3",
+    File: "data/music/Ed Sheeran - I Don't Care.mp3",
+  },
+  {
+    id: 4,
+    name: "Pink Sweat",
+    title: "At My Worst",
+    File: "data/music/Pink Sweat - At My Worst.mp3",
   },
 ];
 let isPlaying = false;
