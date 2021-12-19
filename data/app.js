@@ -126,12 +126,6 @@ const arr = [
     title: "I Don't Care",
     File: "data/music/Ed Sheeran - I Don't Care.mp3",
   },
-  {
-    id: 4,
-    name: "Pink Sweat",
-    title: "At My Worst",
-    File: "data/music/Pink Sweat - At My Worst.mp3",
-  },
 ];
 let isPlaying = false;
 const favourite = document.querySelector(".favourite");
