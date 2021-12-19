@@ -128,7 +128,7 @@ input {
 .image {
   width: 100%;
   height: 320px;
-  background: url(../data/img/image1.jpg);
+  background: url("data/img/image1.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -211,7 +211,7 @@ input {
   column-gap: 16px;
 }
 .plist {
-  background: url(/data/img/icon.png);
+  background: url("data/img/icon.png");
   background-position: center;
   background-size: cover;
   width: 250px;
@@ -249,7 +249,7 @@ input {
 
 /* Favourite */
 .favourites {
-  height: 544px;
+  height: 560px;
 }
 .favourite i {
   font-size: 1.5rem;
